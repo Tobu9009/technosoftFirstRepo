@@ -14,17 +14,17 @@ console.log(`\n${fTemp} °F is equals to ${cTemp} °C`);
 let kTemp = (fTemp + 459.67)* 5/9;
 console.log(`\n${fTemp} °F is equals to ${kTemp} K`);
 
-let cTemp2 = 90;
-let fTemp2 = (cTemp2 * 9/5) + 32;
-console.log(`\n${cTemp2} °C is equals to ${fTemp2} °F`);
+cTemp = 90;
+fTemp = (cTemp * 9/5) + 32;
+console.log(`\n${cTemp} °C is equals to ${fTemp} °F`);
 
-let kTemp2 = cTemp2 + 273.15;
-console.log(`\n${cTemp2} °C is equals to ${kTemp2} K`);
+kTemp = cTemp + 273.15;
+console.log(`\n${cTemp} °C is equals to ${kTemp} K`);
 
-let kTemp3 = 90;
-let fTemp3 = 1.8 * (kTemp3-273.15) + 32;
-console.log(`\n${kTemp3} K is equals to ${fTemp3} °F`);
+kTemp = 90;
+fTemp = 1.8 * (kTemp-273.15) + 32;
+console.log(`\n${kTemp} K is equals to ${fTemp} °F`);
 
-let cTemp3 = kTemp3 - 273.15
-console.log(`\n${kTemp3} K is equals to ${cTemp3} °C`)
+cTemp = kTemp - 273.15
+console.log(`\n${kTemp} K is equals to ${cTemp} °C`)
 

@@ -1,4 +1,4 @@
-let userCreditScore = 710;
+let userCreditScore = 690;
 let isFirstTimeBuyer = true; 
 
 let mortgageRate = userCreditScore > 700 && isFirstTimeBuyer === true ? 4.5 : 5.5 //700 is not greater than 700, so the left hand side of the && fails, 
@@ -10,5 +10,9 @@ console.log(`Mortgage rate -> ${mortgageRate}`)
 /*
 let mortgageRate = userCreditScore > 700 && isFirstTimeBuyer === true ? 4.5 : 5.5
 can be shortened to 
-let mortgageRate = userCreditScore > 700 && isFirstTimeBuyer ? 4.5 : 5.5 
+let mortgageRate = userCreditScore > 700 && isFirstTimeBuyer ? 4.5 : 5.5  
 */
+
+condition ? thisHappensIfConditionIsMet : thisHappensOtherwise 
+
+

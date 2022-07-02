@@ -1,7 +1,6 @@
 {
   "name": "technosoftfirstrepo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/Tobu9009/technosoftFirstRepo/issues"
   },
-  "homepage": "https://github.com/Tobu9009/technosoftFirstRepo#readme"
+  "homepage": "https://github.com/Tobu9009/technosoftFirstRepo#readme",
+  "description": ""
 }
