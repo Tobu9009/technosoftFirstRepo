@@ -13,6 +13,6 @@ can be shortened to
 let mortgageRate = userCreditScore > 700 && isFirstTimeBuyer ? 4.5 : 5.5  
 */
 
-condition ? thisHappensIfConditionIsMet : thisHappensOtherwise 
+//condition ? thisHappensIfConditionIsMet : thisHappensOtherwise 
 
 

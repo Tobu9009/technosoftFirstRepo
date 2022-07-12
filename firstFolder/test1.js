@@ -23,7 +23,7 @@ let indexOfSecondName = nameString2.indexOf('T');
 indexOfName === indexOfSecondName || 2+2 === 5 ? console.log('Bananas') : console.log('Apples')
 */
 
-let sentence = 'Have a great day'
+/*(let sentence = 'Have a great day'
 let sentenceSplit = sentence.split(' ');
 //['Have, 'a', 'great', 'day']
 console.log(sentenceSplit[0])
@@ -36,5 +36,14 @@ console.log(`substring from 2 to 6 ->${subString1_4}`)
 const subString0_1 = mySentence2.substring(2);
 console.log(`\nsubstring from 2 -> ${subString0_1}`)
 
+let concatString = sentence.concat(' ' + mySentence2);
+console.log(concatString);
+*/
+let myName = 'Tobu'
+let yourName = 'Michael'
+console.log(myName + ' ' + yourName);
+console.log(`${myName} ${yourName}`);
+
+console.log('My name is ' + yourName.toUpperCase())
 
 
