@@ -46,6 +46,7 @@ else {
     console.log('Grade F')
 }
 
+
 /*
 Create a varialbe and store any value in it 
 if the number is divisible by 5, print  'divisible by 5'
