@@ -46,4 +46,8 @@ console.log(`${myName} ${yourName}`);
 
 console.log('My name is ' + yourName.toUpperCase())
 
+let fruit = ('b' + 'a' + + 'a' + 'a').toLowerCase()
+console.log(fruit);
+
+
 

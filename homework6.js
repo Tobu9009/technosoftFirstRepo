@@ -9,7 +9,7 @@ function toTitleCase(inputString){
     for(i = 0; i <= sentenceSplit.length - 1; i++){
         titleCase += sentenceSplit[i].substring(0,1).toUpperCase() + sentenceSplit[i].substring(1) + ' ';
     }
-    return titleCase
+    return titleCase;
 }
 
 console.log(toTitleCase('what IS yOUR nAme'))
@@ -30,7 +30,7 @@ function toReverseString(inputString){
 console.log(toReverseString('kimi NO naWa'))
 
 /*
-Q3 create a function to add numbers of a given array array 
+Q3 create a function to add numbers of a given array 
 */
 
 function totalArray(numbers){
