@@ -1,15 +1,23 @@
-class Members {
-
+class Members{
     member = {
-        name: '',
-        age: 0,
-        location: ''
+        mName : '',
+        mAge : 0,
+        mLocation : '',
+        
     }
 
-    showMyDetails() {
-        console.log(`Name: ${this.member.name}\nAge: ${this.member.age}\nLocation: ${this.member.location}`);
-        // console.log(this.member);
+    showMyDetails(){
+        console.log(`Name: ${this.member.mName}\nAge: ${this.member.mAge}\nLocation:${this.member.mLocation}`);
     }
+
+    submitDocuments(){
+
+    }
+
+    orderBooks(){
+
+    }
+
 
 
 }

@@ -1,69 +1,63 @@
-const Members = require("./Members");
+class Teachers{
 
-class Teachers extends Members {
-
-    static idValue = 0;
+    static teacherCount = 0; 
 
     teacher = {
+        tName : '',
+        tAge : 0,
+        tLocation : '',
         tId : 0,
         tCourseName : '',
         tSalary : 0
     }
 
-    /**
-     * 
-     * age >= 21
-     * 
-     * teacherCourseName should be Automation, QA or Mobile
-     * 
-     */
-    hiring(teacherName, teacherAge, teacherCountry, teacherCourseName) {
-        // 
+    /* 
+    age >= 21 
+    teacherCourse should be automation, QA, or mobile 
+    */
+    joining(teacherName, teacherAge, teacherCountry, teacherCourseName){
+        //
     }
 
-    showMyDetails() {
-        // code
+    showMyDetails(){
+
     }
 
-    changeTeachingCourse() {
-        // code
+    changeTeachingCourse(){
+
     }
 
-    /**
-     * addGrade
-     * 
-     * input: studentId, grade
-     * 
-     * if studentId is valid and studentGrade is ''
-     *      update student.sGrade = grade (always store grade in Uppercase)
-     *      print -> grade is successfully added to student id -> id
-     * if studentGrade is NOT ''
-     *      then print -> remove grade from the student
-     * if studentId is invalid
-     *      then print -> Invalid student id  
-     * 
-     */
-    addGrade() {
-        // code
+    submitDocuments(){
+        
     }
 
-    /**
-     * removeGrade
-     * 
-     * input: studentId
-     * 
-     * if studentId is valid and studentGrade is NOT ''
-     *      update student.sGrade = ''
-     *      print -> grade is successfully removed from student id -> id
-     * if studentGrade is ''
-     *      then print -> Student has no grade
-     * if studentId is invalid
-     *      then print -> Invalid student id
-     * 
-     */
-    removeGrade() {
-        // code
+    /*
+    addGrade 
+    input: studentId, grade 
+    if studentId is valid and studentGrade is ''
+        update student.sGrade = grade (always store grade in UpperCase)
+    if studentGrade is not ''
+        then print -> remove grade from the student
+    if studentId is invalid
+        then print -> invalud student id. 
+    
+    */
+    addGrade(){
+
     }
 
+    /*
+    removeGrade 
+    input: studentId
+    if studentId is valid and studentGrade is ''
+        update student.sGrade = ''
+    if studentGrade is ''
+        then print -> Student has no grade
+    if studentId is invalid
+        then print -> Invalid student id
+    }
+    */
+    removeGrade(){
 
+    }
 }
