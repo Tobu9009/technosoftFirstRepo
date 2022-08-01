@@ -47,7 +47,6 @@ t1.showMyDetails();
 t1.changeTeachingCourse('Automation');
 t1.showMyDetails();
 
-console.log(1);
 t1.addGrade(1, 'A');
 t1.removeGrade(1);
 
