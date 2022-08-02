@@ -26,5 +26,30 @@ catch(e){
  * 
  * if no exception occurs in try block, javascfript will never go into catch block 
  * 
- * try 
+ * try {
+ *      code which may/may not throw exception
+ *
+ * }
+ * catch(e){
+ *      code to execuite in case exception happens in try block
+ * }
+ * 
+ * javascript vs java:
+ * 
+ * in js: 
+ *      we can have only-one catch block with a try block
+ * in java:
+ *      we can have multiple-catch blocks with a try block
+ * 
+ * try{
+ *      code
+ * }catch (exception){
+ * 
+ * }catch (exception){
+ * 
+ * }catch (exception3) or exception4){
+ * 
+ * }
+ * 
+ * 8:40
  */
