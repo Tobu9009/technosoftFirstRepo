@@ -11,7 +11,7 @@ const courseDetails = [
     {
         courseName : 'Mobile',
     }
-]
+]w
 class Teachers extends Members {
 
     static #idValue = 0;
